@@ -23,7 +23,7 @@ def parse_pdf_file(filename):
     if not path.exists(filename):
         raise FileNotFoundError()
 
-    parsedPDF = parser.from_file("data/decrypted.pdf")
+    parsedPDF = parser.from_file("decrypted.pdf")
 
 
     # pre process data
