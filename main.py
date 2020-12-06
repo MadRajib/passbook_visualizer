@@ -6,7 +6,7 @@ import argparse as arg
 
 
 def main():
-    argparser = arg.ArgumentParser(description="Genrated Visualizations of Expenses")
+    argparser = arg.ArgumentParser(description="Genrate Visualizations of Expenses")
     argparser.add_argument("--input","-i",help="input path of the passbook")
     argparser.add_argument("--month","-m",help="Get desired month expenses")
 
