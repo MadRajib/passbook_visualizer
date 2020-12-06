@@ -1,11 +1,17 @@
 - [1. Passbook Visualizer](#1-passbook-visualizer)
-  - [1.1. Install the required packages](#11-install-the-required-packages)
-  - [1.2. Run the Program](#12-run-the-program)
-  - [1.3. Other Arguments](#13-other-arguments)
+  - [1.1. Get the project](#11-get-the-project)
+  - [1.2. Install the required packages](#12-install-the-required-packages)
+  - [1.3. Run the Program](#13-run-the-program)
+  - [1.4. Other Arguments](#14-other-arguments)
 
 # 1. Passbook Visualizer
 
-## 1.1. Install the required packages
+## 1.1. Get the project
+```bash
+$ python3 git clone https://github.com/MadRajib/passbook_visualizer.git
+```
+
+## 1.2. Install the required packages
 
 [Optional]Create a Virtual Environment 
 ```bash
@@ -16,7 +22,7 @@ Install the Required Packages
 $pip3 install -r requirements.txt
 ```
 
-## 1.2. Run the Program
+## 1.3. Run the Program
 ```bash
 $ python3 main.py -i path/to/passbook.pdf 
 ```
@@ -69,7 +75,7 @@ Other expenses: 1373.0
 ---------------------------------
 Total expenses: 4713.0
 ```
-## 1.3. Other Arguments
+## 1.4. Other Arguments
 ```bash
 $ python3 main.py --help
 usage: main.py [-h] [--input INPUT] [--month {JAN,FEB,MAR,APR,MAY,JUN,JUL,AUG,SEP,OCT,NOV,DEC}]
