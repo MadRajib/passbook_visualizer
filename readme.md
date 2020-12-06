@@ -16,7 +16,10 @@ $ python3 git clone https://github.com/MadRajib/passbook_visualizer.git
 [Optional]Create a Virtual Environment 
 ```bash
 $ python3 -m virutalenv venv 
+$ source venv/bin/activate
 ```
+> To deactivate virtualenv type *deactivate* in terminal
+
 Install the Required Packages
 ```
 $pip3 install -r requirements.txt
