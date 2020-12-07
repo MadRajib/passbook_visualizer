@@ -5,6 +5,14 @@
   - [1.4. Other Arguments](#14-other-arguments)
 
 # 1. Passbook Visualizer
+Passbook Visualizer is a sample program, that extracts transaction details
+from the SBI PDF passbook, and displays expenses based on categories
+like Food, Shopping and others.
+
+SBI e-passbook comes with password, in the specific format:
+
+eg if date of birth is 7th June and phone number is 9876543212 then,
+pass word will be **07Jun!3212**
 
 ## 1.1. Get the project
 ```bash
